@@ -19,8 +19,9 @@ def archimedes(numSides):
 print(archimedes(8))
 print(archimedes(16))
 
-for sides in range(8, 100, 8):
+for sides in range(2, 100, 2):
     print(sides, archimedes(sides))
 
 # Experiment with the loop above alongside the actual value of Pi.
 # How many sides does it take to make these two close?
+    # It takes 2 sides to make the answer be the same on the second replay of the loop.
