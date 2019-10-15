@@ -7,3 +7,5 @@ We learned about the Archimedes method and using Pi in Python.
 #### Day Two (10-15-19)
 
 We used the Fibonacci sequence to make functions and loops. 
+
+![Learning](/Capture.PNG)
