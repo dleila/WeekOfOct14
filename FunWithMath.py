@@ -35,12 +35,33 @@ for x in range(1, 6):
 
 print(acc)
 
+
 # Compute the sum of the first 100 even numbers.
+acc = 2
+for x in range(2, 101):
+    acc = acc + x
+print(acc)
+
 # Compute the sum of the first 50 odd numbers.
+acc = 2
+for x in range(1, 51):
+    acc = acc + x
+print(acc)
+
 # Compute the average of the first 100 odd numbers
+acc = 2
+for x in range(1, 101):
+    acc = acc + x
+print(acc/100)
+
 # Write a function that returns the average of the first N numbers, where N is a parameter.
+
 # Write a function called factorial that computes the product of the first N numbers, where N is a parameter.
+
 # Each number the tht Fibonacci sequence is the sum of the previous two numbers.
+
     # First two numbers in sequence are 1 and 1. Compute the 10th Fibonacci number
+
 # Write a function to compute the Nth Fibonacci number where N is a parameter.
-    # You may assume that N will be grater than or equal to 3.
+
+    # You may assume that N will be greater than or equal to 3.
