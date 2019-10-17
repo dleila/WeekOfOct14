@@ -8,4 +8,7 @@ We learned about the Archimedes method and using Pi in Python.
 
 We used the Fibonacci sequence to make functions and loops. 
 
+#### Day Three (10-16-19)
+We were gone for the PSAT.
+
 ![Learning](/Capture.PNG)
