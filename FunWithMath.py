@@ -70,8 +70,8 @@ n=int(input("Input a number to compute the factorial : "))
 print(factorial(n))
 
 # Each number the tht Fibonacci sequence is the sum of the previous two numbers.
-    # First two numbers in sequence are 1 and 1. Compute the 10th Fibonacci number
-
+    # First two numbers in sequence are 1 and 1. Compute the 10th Fibonacci number.
+    
 # Write a function to compute the Nth Fibonacci number where N is a parameter.
     # You may assume that N will be greater than or equal to 3.
 
@@ -120,3 +120,21 @@ else:
         c = 25
 
 print(a, b, c)
+
+
+d = 55
+e = 75
+f = 44
+ans = 0
+
+if d > e:
+    ans = 12
+else:
+    if d == e:
+        ans = 50
+    else:
+        if f < d * e:
+            ans = 100
+        else:
+            ans = 75
+print(ans)
