@@ -55,13 +55,68 @@ for x in range(1, 101):
 print(acc/100)
 
 # Write a function that returns the average of the first N numbers, where N is a parameter.
+acc = 1
+for x in range(1, 10):
+    acc = acc + x
+n=int(input("Input a number to compute the average of all numbers leading up to it : "))
 
 # Write a function called factorial that computes the product of the first N numbers, where N is a parameter.
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+n=int(input("Input a number to compute the factorial : "))
+print(factorial(n))
 
 # Each number the tht Fibonacci sequence is the sum of the previous two numbers.
-
     # First two numbers in sequence are 1 and 1. Compute the 10th Fibonacci number
 
 # Write a function to compute the Nth Fibonacci number where N is a parameter.
-
     # You may assume that N will be greater than or equal to 3.
+
+# A Monte Carlo Simulation
+
+import random
+
+print(random.random())
+
+# Boolean expressions
+# > greater than
+# >= greater than or equal to
+# < less than
+# <= less than or equal to
+# == the same as [equal to]
+# != NOT equal to
+
+dogWeight = 25
+print(dogWeight != 25)
+catWeight = 15
+
+# compound Boolean operators
+# and
+# or
+# not
+
+print(not catWeight < 20)
+
+# Decision Making -- Selection statements
+a = 5
+b = 10
+c = 75
+
+if a > b:
+    c = 45
+
+print(c)
+
+if a > b:
+    c = 45
+    if b > c:
+        a = 25
+else:
+    c = 1050
+    if b == a:
+        c = 25
+
+print(a, b, c)
