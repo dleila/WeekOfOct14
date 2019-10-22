@@ -71,7 +71,7 @@ print(factorial(n))
 
 # Each number the tht Fibonacci sequence is the sum of the previous two numbers.
     # First two numbers in sequence are 1 and 1. Compute the 10th Fibonacci number.
-    
+
 # Write a function to compute the Nth Fibonacci number where N is a parameter.
     # You may assume that N will be greater than or equal to 3.
 
@@ -138,3 +138,21 @@ else:
         else:
             ans = 75
 print(ans)
+
+def montePi(numDarts):
+
+    inCircle = 0
+
+    for i in range(numDarts):
+        x = random.random()
+        y = random.random()
+
+        distance = math.sqrt(x**2 + y**2)
+
+        if distance <= 1:
+            inCircle = inCircle +1
+
+    pi = inCircle / numDarts * 4
+    return pi
+
+print(montePi(10000))
