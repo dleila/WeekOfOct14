@@ -69,11 +69,6 @@ def factorial(n):
 n=int(input("Input a number to compute the factorial : "))
 print(factorial(n))
 
-# Each number the tht Fibonacci sequence is the sum of the previous two numbers.
-    # First two numbers in sequence are 1 and 1. Compute the 10th Fibonacci number.
-
-# Write a function to compute the Nth Fibonacci number where N is a parameter.
-    # You may assume that N will be greater than or equal to 3.
 
 # A Monte Carlo Simulation
 
